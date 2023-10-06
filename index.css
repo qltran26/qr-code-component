@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.qr__code {
+    margin: 20px;
+    width: 90%;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.qr__desc {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.qr__desc h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    opacity: .9;
+}
+
+.qr__desc p {
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: .5;
+}
+
+.attribution {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    :root {
+        font-size: 16px;
+    }
+
+    main {
+        width: 21%;
+    }
+
+    .attribution {
+        font-size: 16px;
+    }
+}
